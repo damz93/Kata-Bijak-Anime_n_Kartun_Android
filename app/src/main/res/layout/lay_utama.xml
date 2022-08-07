@@ -1,0 +1,1462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="#f4f4f4"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#31343a"
+        android:orientation="vertical"
+        android:paddingBottom="25dp"
+        android:paddingTop="25dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:background="@drawable/logo1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="5dp"
+                android:text=""
+                android:textSize="35sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="KARTUN &amp; ANIME"
+            android:textSize="22sp"
+            android:textColor="#f5f6f1"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="5"
+        android:scrollbars="vertical" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_aot"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/aot"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="Attack on Titan" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="Shingeki no Kyojin, yang diterbitkan di Indonesia dengan judul Attack on Titan, adalah sebuah seri manga shōnen asal Jepang yang ditulis dan diilustrasikan oleh Hajime Isayama.\n
+Pengarang: Hajime Isayama\n
+Genre: Laga; Fantasi gelap; Pascaapokaliptik;\n
+Volume: 34 (Daftar volume)\n
+Penerbit: Kodansha" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_avatar"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/avatar"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="Avatar: The Legend of Aang" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="Avatar: The Legend of Aang adalah sebuah serial animasi televisi Amerika yang ditayangkan oleh jaringan televisi Nickelodeon. \n
+Genre: Petualangan; Fantasi\n
+Jaringan asli: Nickelodeon; Global TV\n
+Jmlh. episode: 61 (daftar episode)\n
+Jmlh. musim: 3" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_brave"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/brave"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="Brave" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="Tanggal rilis: 22 Juni 2012 (Indonesia)\n
+Sutradara: Brenda Chapman, Mark Andrews\n
+Bahasa: Inggris\n
+Penulis: Brenda Chapman\n
+Perusahaan produksi: Pixar Animation Studios" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_captain"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/capt_tsubasa"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="Captain Tsubasa" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="Kapten Tsubasa adalah manga dan anime tentang sepak bola. Kapten Tsubasa merupakan salah satu manga dan anime favorit Indonesia. Di Indonesia, serial ini juga pernah ditayangkan di RCTI, Global TV, TV7, Spacetoon dan NET. \n
+Pengarang: Yōichi Takahashi\n
+Genre: Olahraga, Shōnen Jump\n
+Saluran asli: Animax, TV Tokyo\n
+Sutradara: Isamu Imakake\n
+Buku: Captain Tsubasa 7, Captain Tsubasa 11" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_coco"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/coco"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="C o c o" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="Tanggal rilis: 22 November 2017 (Indonesia)\n
+Sutradara: Adrian Molina, Lee Unkrich\n
+Bahasa: Inggris\n
+Distributor: Walt Disney Pictures" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_deathnote"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/deathnote"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="Death Note" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="Death Note adalah sebuah serial manga shōnen Jepang yang ditulis oleh Tsugumi Ohba dan diilustrasikan oleh Takeshi Obata.\n
+Adaptasi: Death Note (2006), Death Note (2017)" />
+                </LinearLayout>
+            </LinearLayout>
+           <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_demon"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/demon_slayer"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="Demon Slayer" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="Kimetsu no Yaiba, yang diterbitkan di Indonesia dengan judul Demon Slayer: Kimetsu no Yaiba, adalah sebuah seri manga Jepang yang ditulis dan diilustrasikan oleh Koyoharu Gotōge. \n
+Pengarang: Koyoharu Gotōge\n
+Episode: 44 (Daftar episode)\n
+Studio: Ufotable\n
+Tayang: 6 April 2019 – 29 September 2019\n
+Genre: Petualangan, fantasi gelap bela diri" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_des_me"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/despicable_me"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="Despicable Me" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="Despicable Me adalah film komedi animasi komputer 3D Amerika 2010 yang diproduksi oleh Illumination Entertainment sebagai film dan proyek debutnya dan didistribusikan oleh Universal Pictures. Film ini dianimasikan oleh studio animasi Prancis Mac Guff, yang kemudian diakuisisi oleh Illumination. \n
+Tanggal rilis: 9 Juli 2010 (Indonesia)\n
+Sutradara: Pierre Coffin, Chris Renaud\n
+Bahasa: Inggris\n
+Penata musik: Hans Zimmer; Heitor Pereira; Pharrell Williams" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_detect"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/det_conan"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="Detektif Conan" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="Detektif Conan, yang juga dikenal sebagai Case Closed dan Detective Conan, adalah seri manga detektif Jepang yang ditulis dan diilustrasikan oleh Gosho Aoyama. \n
+Episode: 1049 (Daftar episode)\n
+Volume: 101 (Daftar volume)\n
+Tayang: 8 Januari 1996 – present\n
+Pengarang: Gosho Aoyama\n
+Genre: Misteri, cerita seru\n
+Adaptasi: Detektif Conan (1996)" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_doraemon"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/doraemon"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="Doraemon" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="Doraemon adalah karakter fiksi dalam serial manga dan anime Jepang dengan nama yang sama yang dibuat oleh Fujiko Fujio, nama pena dari tim penulisan Hiroshi Fujimoto dan Motoo Abiko. \n
+Orang tua: Tamako Nobi, Nobisuke Nobi, Ibu Doraemon\n
+Saudara kandung: Dorami\n
+Ciri fisik: Berkulit biru dan putih, Bermata hitam, hijau (Stand by Me Doraemon)\n
+Penampilan pertama: All the Way from a Future World\n
+Film: Doraemon: Dinosaurus Nobita 2006" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_dragon"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/dragon_ball"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="Dragon Ball" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="Dragon Ball adalah sebuah manga dan anime karya Akira Toriyama dari tahun 1984 sampai 1995. Albumnya terdiri dari 42 buku dan di Indonesia diterbitkan oleh Elex Media Komputindo. Sebelumnya Dragon Ball juga pernah diterbitkan oleh Rajawali Grafiti. Tokoh-tokoh Dragon Ball Goku Bulma Krillin Master Roshi Oolong Yamcha \n
+Karya asli: Dragon Ball (1984–1995)" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_frozen"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/frozen"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="Frozen" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="Frozen adalah film fantasi musikal animasi komputer 3D Amerika 2013 yang diproduksi oleh Walt Disney Animation Studios dan dirilis oleh Walt Disney Pictures. Film fitur animasi Disney ke-53, terinspirasi oleh dongeng Hans Christian Andersen ~The Snow Queen~.\n
+Tanggal rilis: 29 November 2013 (Indonesia)\n
+Sutradara: Chris Buck, Jennifer Lee\n
+Bahasa: Inggris\n
+Diadaptasi dari: Ratu Salju" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_full"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/full_metal"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="Full Metal Alchemist" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="Fullmetal Alchemist adalah sebuah anime dan manga karya Hiromu Arakawa. Fullmetall Alchemist diterbitkan dalam majalah manga Monthly Shonen Gangan sejak tahun 2002 dan dalam bentuk tankobon oleh Square Enix. Di Indonesia, komik ini diterbitkan Elex Media Komputindo sejak Mei 2007. \n
+Pengarang: Hiromu Arakawa\n
+Penerbit: Square Enix\n
+Adaptasi: Fullmetal Alchemist: Brotherhood (2009)\n
+Genre: Fiksi petualangan, Fantasi, Steampunk, Dieselpunk" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_haikyu"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/haikyu"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="Haikyu" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="Haikyu!!, yang diterbitkan di Indonesia dengan judul Haikyu!! Fly High! Volleyball!, adalah sebuah seri manga shōnen asal Jepang yang ditulis dan diilustrasikan oleh Haruichi Furudate. Bab-bab tunggalnya telah dimuat dalam majalah Weekly Shōnen Jump sejak bulan Februari 2012 hingga Juli 2020. \n
+Pengarang: Haruichi Furudate\n
+Episode: 85 + 4 OVA (Daftar episode)\n
+Volume: 45 (Daftar volume)\n
+Studio: Production I.G\n
+Tayang: 6 April 2014 – sekarang\n
+Genre: Komedi, Coming-of-age, Olahraga" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_howto"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/how_to_train"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="How to Train Your Dragon" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="How to Train Your Dragon adalah film fantasi aksi animasi komputer Amerika 2010 yang berdasarkan pada buku tahun 2003 dengan nama yang sama oleh penulis Inggris Cressida Cowell, diproduksi oleh DreamWorks Animation dan didistribusikan oleh Paramount Pictures. \n
+Tanggal rilis: 20 Maret 2010 (Indonesia)\n
+Sutradara: Chris Sanders, Dean DeBlois\n
+Diadaptasi dari: How to Train Your Dragon\n
+Bahasa: Inggris\n
+Penulis: Will Davies; Dean DeBlois; Chris Sanders" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_inside"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/ins_out"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="Inside Out" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="Inside Out adalah film animasi Amerika Serikat tahun 2015 yang disutradarai oleh Pete Docter dan diproduseri oleh Jonas Rivera. \n
+Tanggal rilis: 19 Agustus 2015 (Indonesia)\n
+Sutradara: Pete Docter\n
+Bahasa: Inggris\n
+Penata musik: Michael Giacchino\n
+Penulis: Pete Docter; Meg LeFauve; Josh Cooley" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_inuyasha"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/inuyasha"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="Inuyasha" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="Inuyasha, juga dikenal sebagai Inuyasha: A Feudal Fairy Tale Isekai, adalah sebuah seri manga Jepang yang ditulis dan diilustrasikan oleh Rumiko Takahashi. Manga ini mulai dimuat dalam majalah Weekly Shōnen Sunday sejak tanggal 13 November 1996 dan berakhir pada tanggal 18 Juni 2008.\n
+Episode: 167 (Daftar episode)\n
+Genre: Petualangan, fantasi, romantis\n
+Tayang: 16 Oktober 2000 – 13 September 2004\n
+Majalah: Weekly Shōnen Sunday\n
+Musik: Kaoru Wada\n
+Adaptasi: Yashahime: Princess Half-Demon (2020)" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_kungfu"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/kungfu_panda"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="Kung Fu Panda" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="Kung Fu Panda adalah film komedi wuxia animasi komputer Amerika 2008 yang diproduksi oleh DreamWorks Animation dan didistribusikan oleh Paramount Pictures. \n
+Tanggal rilis: 13 Juni 2008 (Indonesia)\n
+Sutradara: Mark Osborne, John Stevenson\n
+Bahasa: Inggris\n
+Distributor: Paramount Pictures\n
+Penata musik: Hans Zimmer; John Powell" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_naruto"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/naruto"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="Naruto" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="Naruto adalah sebuah serial manga karya Masashi Kishimoto yang diadaptasi menjadi serial anime. Manga Naruto bercerita seputar kehidupan tokoh utamanya, Naruto Uzumaki, seorang ninja yang hiperaktif. \n
+Pengarang: Masashi Kishimoto\n
+Genre: Aksi, Petualangan, Fantasi\n
+Volume: Bagian I: 1-27; Bagian II: 28-72\n
+Adaptasi: Naruto Shippuden (2007), Naruto (manga)" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_ninja_hattori"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/ninja_hattori"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="Ninja Cilik Hattori" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="Ninja Cilik Hattori adalah serial manga karya Fujiko Fujio yang kemudian diadaptasi menjadi sebuah drama TV, serial anime, dan permainan video." />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_op"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/op"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="One Piece" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="One Piece adalah sebuah seri manga Jepang yang ditulis dan diilustrasikan oleh Eiichiro Oda. Manga ini telah dimuat di majalah Weekly Shōnen Jump milik Shueisha sejak tanggal 22 Juli 1997, dan telah dibundel menjadi 91 volume tankōbon. Ceritanya mengisahkan petualangan Monkey D. \n
+Pengarang: Eiichiro Oda\n
+Episode: 1024 (Daftar episode)\n
+Volume: 102 (Daftar volume)\n
+Tayang: 20 Oktober 1999 – sekarang\n
+Studio: Toei Animation" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_opm"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/opm"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="One-Punch Man" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="One-Punch Man adalah sebuah serial manga Jepang yang menceritakan seorang superhero yang bernama Saitama. One-Punch Man dibuat oleh seorang penulis yang asal jepang dengan nama samaran ONE yang mulai diterbitkan pada awal tahun 2009. \n
+Pengarang: One, Yūsuke Murata\n
+Episode: 12 + 6 OVA\n
+Volume: 26\n
+Studio: Madhouse (season 1); J.C. Staff (season 2)\n
+Genre: Aksi, Komedi, Superhero, Fiksi" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_ratatouille"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/ratatouille"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="Ratatouille" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="Ratatouille adalah sebuah film animasi komputer yang dirilis tahun 2007. Film ini diproduksi oleh Pixar, dan didistribusikan oleh Walt Disney Pictures. Film ini mengenai seekor tikus yang bernama Rémy, yang ingin menjadi koki restoran terkenal di Paris. \n
+Tanggal rilis: 28 Juni 2007 (Indonesia)\n
+Sutradara: Brad Bird\n
+Bahasa: Inggris" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_samx"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/samurai_x"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="Samurai X" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="Rurouni Kenshin: Meiji Swordsman Romantic Story adalah seri manga karya Nobuhiro Watsuki yang berlatar belakang awal dari era Meiji di Jepang.\n
+Pengarang: Nobuhiro Watsuki\n
+Episode: 95 (Daftar episode)\n
+Genre: Chanbara\n
+Majalah: Weekly Shōnen Jump\n
+Penerbit: Shueisha\n
+Adaptasi: Rurouni Kenshin (2012)" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_shman"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/shaman_king"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="Shaman King" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="Infobox animanga/Video|jenis = serial tv |sutradara = Seiji Mizushima |produser = Fukashi Azuma Naoki Sasada Takatoshi Chino |penulis = Katsuhiko Koide |musik = Toshiyuki mori |studio = Xebec" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_shrek"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/shrek"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="Shrek" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="Shrek adalah film komedi animasi komputer tahun 2001 yang secara bebas didasarkan pada buku bergambar dongeng tahun 1990 dengan nama yang sama oleh William Steig. \n
+Tanggal rilis: 22 April 2001 (Amerika)\n
+Sutradara: Andrew Adamson, Vicky Jenson\n
+Bahasa: Inggris\n
+Diadaptasi dari: Shrek!" />
+                </LinearLayout>
+            </LinearLayout>
+ <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_soul"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/soul"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="Soul" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="Soul adalah film animasi komputer Amerika Serikat tahun 2020 yang disutradarai Pete Docter, diproduksi Pixar Animation Studios, dan ditayangkan Walt Disney Pictures. \n
+Tanggal rilis awal: 11 Oktober 2020\n
+Sutradara: Pete Docter\n
+Bahasa: Inggris\n
+Distributor: Walt Disney Studios Motion Pictures\n
+Penata musik: Trent Reznor; Atticus Ross; Jon Batiste\n
+Penulis: Pete Docter; Mike Jones; Kemp Powers" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_spongs"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/spongebob"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="SpongeBob SquarePants" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="SpongeBob SquarePants adalah sebuah serial animasi yang paling terpopuler di Nickelodeon. Pada awalnya serial kartun animasi ini ditayangkan pada tahun 1999 di Amerika Serikat dan diciptakan oleh Stephen ... \n
+Pembuat: Stephen Hillenburg\n
+Lagu pembuka: ~SpongeBob SquarePants Theme~ oleh Pat Pinney\n
+Negara asal: Amerika Serikat\n
+Bahasa asli: Inggris\n
+Distributor: MTV Networks International" />
+                </LinearLayout>
+            </LinearLayout>
+<LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_tangled"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/tangled"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="Tangled" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="Tangled merupakan film animasi musikal tahun 2011 yang disutradarai oleh Nathan Greno dan Byron Howard dan diproduksi oleh Roy Conli, John Lasseter dan Glen Keane dari Walt Disney Animation Studios. Naskah film ini ditulis oleh Dan Fogelman berdasarkan dongeng dari Jerman berjudul Rapunzel karya Brothers Grimm. \n
+Tanggal rilis: 26 November 2010 (Meksiko)\n
+Sutradara: Nathan Greno, Byron Howard\n
+Bahasa: Inggris\n
+Diadaptasi dari: Rapunzel" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_tokyo"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/tokyo_revengers"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="Tokyo Revengers" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="Tokyo Revengers adalah sebuah seri manga shōnen Jepang yang ditulis dan diilustrasikan oleh Ken Wakui. Manga ini dimuat berseri dalam majalah Weekly Shōnen Magazine terbitan Kodansha sejak bulan Maret 2017, dan telah dibundel menjadi dua puluh delapan volume tankōbon. \n
+Pengarang: Ken Wakui\n
+Episode: 24\n
+Demografi: Shōnen\n
+Musik: Hiroaki Tsutsumi\n
+Penerbit: Kodansha" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_toystor"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/toy_story"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="Toy Story" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="Toy Story adalah film komedi teman animasi komputer Amerika 1995 yang diproduksi oleh Pixar Animation Studios dan dirilis oleh Walt Disney Pictures. Film debut sutradara fitur John Lasseter, ini adalah film fitur sepenuhnya animasi komputer pertama, serta film fitur pertama dari Pixar. \n
+Tanggal rilis: 22 November 1995 (Amerika)\n
+Sutradara: John Lasseter\n
+Bahasa: Inggris\n
+Distributor: Buena Vista Distribution\n
+Penata musik: Randy Newman" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_turning_red"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/turning_red"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="Turning Red" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="Turning Red adalah film animasi fantasi remaja yang diproduksi Walt Disney Pictures dan Pixar Animation Studios serta didistribusikan oleh Walt Disney Studios Motion Pictures. Ditulis dan disutradarai Domee Shi, diproduseri oleh Lindsey Collins, dan dibintangi oleh Rosalie Chiang dan Sandra Oh. \n
+Tanggal rilis awal: 21 Februari 2022\n
+Sutradara: Domee Shi" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_up"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/up_"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="Up" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="Up adalah film petualangan komedi-drama animasi CGI Amerika 2009 yang diproduksi oleh Pixar Animation Studios dan dirilis oleh Walt Disney Pictures. Film ini berpusat pada seorang duda tua bernama Carl Fredricksen dan seorang anak lelaki yang sungguh-sungguh bernama Russell. \n
+Tanggal rilis: 29 Juli 2009 (Indonesia)\n
+Sutradara: Pete Docter\n\
+Bahasa: Inggrisn
+Produser: Jonas Rivera" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_wreck"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/wreck_it_ralph"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="Wreck-It Ralph" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="Wreck-It Ralph ingin disayang banyak orang seperti temannya yang baik hati, Fix-It Felix. Namun tidak ada orang yang suka dengan karakter jahat seperti Ralph, sehingga saat ada adu tembak di sebuah game pimpinan Sersan Calhoun, Ralph pun bersemangat mengikutinya. Tujuan Ralph pun sederhana, ingin menang dan mendapat medali agar dianggap sebagai pahlawan. Namun tanpa sadar Ralph malah membuka jalan bagi para penjahat yang dapat membunuh semua games di kompleks permainan itu. Satu-satunya harapan Ralph adalah Vanellope von Schweetz, yang juga dapat mengajarkan Ralph menjadi karakter yang baik hati. Namun apakah Ralph mempunyai waktu, sebelum para penjahat mematikan seluruh game yang ada?\n
+Tanggal rilis: 9 November 2012 (Indonesia)\n
+Sutradara: Rich Moore\n
+Bahasa: Inggris\n
+Penulis: Phil Johnston; Jennifer Lee\n
+Perusahaan produksi: Walt Disney Pictures; Walt Disney Animation Studios" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:background="@drawable/btn_3_"
+                android:layout_height="wrap_content"
+                android:id="@+id/ln_yuyu"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="@drawable/yuyu_hakusho"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="80dp" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#31343a"
+                        android:text="YuYu Hakusho" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#31343a"
+                        android:layout_marginLeft="10dp"
+                        android:text="Yu Yu Hakusho adalah sebuah seri manga Jepang yang ditulis dan diilustrasikan oleh Yoshihiro Togashi. Seri tersebut mengisahkan kisah Yusuke Urameshi, seorang remaja nakal yang meninggal akibat ditabrak mobil saat berniat untuk menyelamatkan nyawa seorang anak. \n
+Pengarang: Yoshihiro Togashi\n
+Majalah bahasa Inggris: NA Shonen Jump\n
+Penerbit bahasa Inggris: NA Viz Media\n
+Adaptasi: Yu Yu Hakusho (1992)\n
+Genre: Fiksi petualangan, Seni bela diri, Fiksi supernatural" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5256228815542923/2465011421">
+    </com.google.android.gms.ads.AdView>
+</LinearLayout>
