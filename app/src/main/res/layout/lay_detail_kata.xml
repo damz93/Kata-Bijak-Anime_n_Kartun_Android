@@ -67,7 +67,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:textSize="24sp"
-            android:background="#5498ab"
+            android:background="#34343c"
             android:gravity="center"
             android:textColor="#f5f6f1"
             android:paddingTop="5dp"
